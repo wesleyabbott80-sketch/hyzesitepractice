@@ -29,14 +29,6 @@
                 description: 'Gives AI a reasoning step to thinking',
                 apiKey: null
             }
-
-            anthropic: {
-                name: 'Anthropic Sequential',
-                endpoint: 'https://mcpservers.org/sequential-thinking/mcp',
-                enabled: true,
-                description: 'Gives AI a reasoning step to thinking',
-                apiKey: null
-            }
         };
         
         let projects = [];
