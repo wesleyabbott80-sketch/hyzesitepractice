@@ -13,6 +13,22 @@
                 description: 'Query structured data from Wikidata',
                 apiKey: null
             }
+
+            slack: {
+                name: 'Slack',
+                endpoint: 'https://mcp.slack.com/mcp',
+                enabled: true,
+                description: 'Team communication',
+                apiKey: null
+            }
+
+            slack: {
+                name: 'Slack',
+                endpoint: 'https://mcp.slack.com/mcp',
+                enabled: true,
+                description: 'Team communication',
+                apiKey: null
+            }
         };
         
         let projects = [];
