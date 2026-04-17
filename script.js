@@ -22,11 +22,19 @@
                 apiKey: null
             }
 
-            slack: {
-                name: 'Slack',
-                endpoint: 'https://mcp.slack.com/mcp',
+            anthropic: {
+                name: 'Anthropic Sequential',
+                endpoint: 'https://mcpservers.org/sequential-thinking/mcp',
                 enabled: true,
-                description: 'Team communication',
+                description: 'Gives AI a reasoning step to thinking',
+                apiKey: null
+            }
+
+            anthropic: {
+                name: 'Anthropic Sequential',
+                endpoint: 'https://mcpservers.org/sequential-thinking/mcp',
+                enabled: true,
+                description: 'Gives AI a reasoning step to thinking',
                 apiKey: null
             }
         };
